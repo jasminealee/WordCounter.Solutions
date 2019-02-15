@@ -4,3 +4,31 @@ public void IsWordCounter_FullWordTrue()
   WordCounter testLeapYear = new WordCounter();
   Assert.AreEqual(true, testWordCounter.IsWordCounter(pen));
 }
+
+[TestMethod]
+public void IsWordCounter_punctuationnotnecessaryrue()
+{
+  WordCounter testLeapYear = new WordCounter();
+  Assert.AreEqual(true, testWordCounter.IsWordCounter(pen));
+}
+
+[TestMethod]
+public void IsWordCounter_FullWordTrue()
+{
+  WordCounter testLeapYear = new WordCounter();
+  Assert.AreEqual(true, testWordCounter.IsWordCounter(pen));
+}
+
+[TestMethod]
+public void IsWordCounter_FullWordTrue()
+{
+  WordCounter testLeapYear = new WordCounter();
+  Assert.AreEqual(true, testWordCounter.IsWordCounter(pen));
+}
+
+[TestMethod]
+public void IsWordCounter_FullWordTrue()
+{
+  WordCounter testLeapYear = new WordCounter();
+  Assert.AreEqual(true, testWordCounter.IsWordCounter(pen));
+}
