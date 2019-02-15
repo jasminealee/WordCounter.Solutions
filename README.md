@@ -1,3 +1,4 @@
+
 ## Specifications
 | Descriptions | Input Example | Output Example |
 |---|:---:|:---:|

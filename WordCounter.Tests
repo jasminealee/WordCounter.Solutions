@@ -1,0 +1,6 @@
+[TestMethod]
+public void IsWordCounter_FullWordTrue()
+{
+  WordCounter testLeapYear = new WordCounter();
+  Assert.AreEqual(true, testWordCounter.IsWordCounter(pen));
+}
