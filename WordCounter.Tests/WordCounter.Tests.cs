@@ -1,8 +1,11 @@
 [TestMethod]
-public void IsWordCounter_FullWordTrue()
+public class FullWord;
 {
+public void IsWordCounter_FullWordTrue()
+  {
   WordCounter testWordCounter = new WordCounter();
   Assert.AreEqual(true, testWordCounter.IsWordCounter(pen));
+  }
 }
 
 [TestMethod]
